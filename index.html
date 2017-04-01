@@ -1,0 +1,28 @@
+<?php
+	session_start();
+?>
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Database Parser</title>
+	</head>
+
+	<body>
+		<div class="firstSelection">
+			<form action="process.php" method="post">
+				<fieldset>
+					<legend>Ton outil personnel :D</legend>
+					<p>
+						<label for="l_FolderName">Folder name</label>
+						<input type="text" name="l_FolderName" id="l_FolderName" value="pending"/>
+						<input type="submit" name="submit" value="Traiter" onclick="Redirect()"/>
+					</p>
+				</fieldset>
+			</form>
+		</div>
+	</body>
+
+</html>
